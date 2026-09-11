@@ -1,10 +1,8 @@
 import os
-from pathlib import Path
 from typing import Literal
 from uuid import UUID
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse, FileResponse
-from fastapi.staticfiles import StaticFiles
+from fastapi.responses import JSONResponse
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 from pydantic import BaseModel, Field, ConfigDict
 from engine.catalog import ROOT, read_knowledge
@@ -146,13 +144,8 @@ def create_app(db_path=None):
 
     build=ROOT/'web/dist'
     if build.exists():
-        app.mount('/assets',StaticFiles(directory=build/'assets'),name='assets')
-
-        @app.get('/favicon.svg',include_in_schema=False)
-        def favicon(): return FileResponse(build/'favicon.svg',media_type='image/svg+xml')
-
-        @app.get('/',include_in_schema=False)
-        def index(): return FileResponse(build/'index.html')
+        # Vercel promociona este frontend al CDN; en local sirve web/dist.
+        app.frontend('/',directory=build,fallback='index.html',check_dir=False)
     return app
 
 

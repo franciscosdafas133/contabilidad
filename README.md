@@ -29,11 +29,13 @@ npm run dev
 ## Deploy en Vercel
 
 1. Importa el repo en [Vercel](https://vercel.com/new).
-2. Framework preset: **Other**.
-3. Build Command y Output ya están en `vercel.json`.
+2. Framework preset: **FastAPI** (o deja que lo detecte desde `pyproject.toml`).
+3. El entrypoint es `backend.app:app`; el build del front está en `vercel.json`.
 4. Deploy.
 
-La API queda en `/api/*`. El progreso en Vercel usa SQLite en `/tmp` (efímero entre instancias serverless).
+La API queda en `/api/*` y el front lo sirve la misma app FastAPI. Si ves HTML en vez de JSON en `/api/health`, desactiva **Deployment Protection** en el proyecto (Settings → Deployment Protection) para uso del taller.
+
+El progreso en Vercel usa SQLite en `/tmp` (efímero entre instancias serverless).
 
 ## Notas
 

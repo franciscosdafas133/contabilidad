@@ -1,15 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "cd web && npm install && npm run build",
-  "outputDirectory": "web/dist",
-  "framework": null,
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" },
-    { "source": "/((?!assets/).*)", "destination": "/index.html" }
-  ],
   "functions": {
-    "api/index.py": {
-      "includeFiles": "{engine/**,knowledge/**,backend/**,requirements.txt}"
+    "backend/app.py": {
+      "maxDuration": 30,
+      "includeFiles": "{engine/**,knowledge/**,web/dist/**}"
     }
   }
 }
