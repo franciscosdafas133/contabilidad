@@ -1,0 +1,97 @@
+{
+  "id": "las_vegas_efe",
+  "kind": "efe",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/Semana 3 y 4/1. solucionario ejercicio  sobre ER ECPN EFE Cia LAs Vegas 1 (1).xlsx",
+  "sha256": "9ed8a2eac3f3c687bd7c1544f9c7f88d5c491b892c356a51bc2ef71cc6404646",
+  "sheet": "pregunta 1",
+  "input": {
+    "initial": "921000",
+    "flows": [
+      {
+        "label": "cobranza por ventas al contado",
+        "activity": "AO",
+        "amount": "707500"
+      },
+      {
+        "label": "Cobranza por ventas al crédito",
+        "activity": "AO",
+        "amount": "660125"
+      },
+      {
+        "label": "pago a proveedores por compras al contado",
+        "activity": "AO",
+        "amount": "-600000"
+      },
+      {
+        "label": "pago a proveedores por compras al crédito",
+        "activity": "AO",
+        "amount": "-142500"
+      },
+      {
+        "label": "pago de fletes y seguros",
+        "activity": "AO",
+        "amount": "-50000"
+      },
+      {
+        "label": "pago de sueldos",
+        "activity": "AO",
+        "amount": "-80000"
+      },
+      {
+        "label": "pago de servicios (LAT)",
+        "activity": "AO",
+        "amount": "-42000"
+      },
+      {
+        "label": "pago de alquileres por adelantado",
+        "activity": "AO",
+        "amount": "-36000"
+      },
+      {
+        "label": "pago por compra de vehículo",
+        "activity": "AI",
+        "amount": "-35000"
+      },
+      {
+        "label": "cobro por venta de acciones de largo plazo",
+        "activity": "AI",
+        "amount": "85000"
+      },
+      {
+        "label": "cobro de préstamo",
+        "activity": "AF",
+        "amount": "90000"
+      },
+      {
+        "label": "pago de préstamo",
+        "activity": "AF",
+        "amount": "-7500"
+      },
+      {
+        "label": "pago de intereses",
+        "activity": "AF",
+        "amount": "-8900"
+      },
+      {
+        "label": "cobro por aporte de accionistas",
+        "activity": "AF",
+        "amount": "400000"
+      }
+    ]
+  },
+  "expected": {
+    "AO": "417125",
+    "AI": "50000",
+    "AF": "473600",
+    "change": "940725",
+    "final": "1861725"
+  },
+  "expected_cells": {
+    "AO": "C49",
+    "AI": "C54",
+    "AF": "C61",
+    "change": "C63",
+    "final": "C67"
+  },
+  "tolerance": "0.000001"
+}

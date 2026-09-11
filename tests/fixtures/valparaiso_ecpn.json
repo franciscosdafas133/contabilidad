@@ -1,0 +1,32 @@
+{
+  "id": "valparaiso_ecpn",
+  "kind": "ecpn",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/Semana 3 y 4/1. solucionario ejercicio  sobre ER ECPN EFE Cia LAs Vegas 1 (1).xlsx",
+  "sha256": "9ed8a2eac3f3c687bd7c1544f9c7f88d5c491b892c356a51bc2ef71cc6404646",
+  "sheet": "Pregunta 2",
+  "input": {
+    "opening": {
+      "capital": "980000",
+      "reserve": "99000",
+      "retained": "521000"
+    },
+    "profit": "150000",
+    "contribution": "300000",
+    "capitalization": "221000",
+    "voluntary": "7500",
+    "dividends": "75000"
+  },
+  "expected": {
+    "capital": "1501000",
+    "reserve": "114000",
+    "voluntary_reserve": "7500",
+    "retained": "352500"
+  },
+  "expected_cells": {
+    "capital": "C17",
+    "reserve": "D17",
+    "voluntary_reserve": "E17",
+    "retained": "F17"
+  },
+  "tolerance": "0.000001"
+}

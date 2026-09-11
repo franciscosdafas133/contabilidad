@@ -1,0 +1,72 @@
+{
+  "id": "pd3_efe",
+  "kind": "efe",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD3/FC 2026-2 PD 3 Solucionario.xlsx",
+  "sha256": "9bda2749c12a388edbf0ec84982202725aea27a5271d79db5a068eb502be7971",
+  "sheet": "E3 EFE",
+  "input": {
+    "initial": "12000",
+    "flows": [
+      {
+        "label": "Cobranza de clientes",
+        "activity": "AO",
+        "amount": "100000"
+      },
+      {
+        "label": "Pago a proveedores",
+        "activity": "AO",
+        "amount": "-60000"
+      },
+      {
+        "label": "Pago de remuneraciones",
+        "activity": "AO",
+        "amount": "-12000"
+      },
+      {
+        "label": "Pago de tributos",
+        "activity": "AO",
+        "amount": "-15000"
+      },
+      {
+        "label": "Cobros por venta de inversiones en valores de largo plazo",
+        "activity": "AI",
+        "amount": "3000"
+      },
+      {
+        "label": "Pagos por compra de intangibles",
+        "activity": "AI",
+        "amount": "-11000"
+      },
+      {
+        "label": "Pago de dividendos",
+        "activity": "AF",
+        "amount": "-34500"
+      },
+      {
+        "label": "Aporte de capital en efectivo",
+        "activity": "AF",
+        "amount": "80000"
+      },
+      {
+        "label": "Pago de préstamo bancario",
+        "activity": "AF",
+        "amount": "-25000"
+      }
+    ]
+  },
+  "expected": {
+    "AO": "13000",
+    "AI": "-8000",
+    "AF": "20500",
+    "change": "25500",
+    "final": "37500"
+  },
+  "expected_cells": {
+    "AO": "B22",
+    "AI": "B28",
+    "AF": "B35",
+    "change": "B38",
+    "final": "B40"
+  },
+  "tolerance": "0.000001"
+}

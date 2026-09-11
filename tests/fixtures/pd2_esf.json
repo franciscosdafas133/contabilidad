@@ -1,0 +1,172 @@
+{
+  "id": "pd2_esf",
+  "kind": "matrix",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD2/FC 2026-2 PD 2 Solucionario.xlsx",
+  "sha256": "8ea2f4311f1c9f5593f9923a46fe72c64909e96aff89b2c2e54ffb351d33b602",
+  "sheet": "E2",
+  "input": {
+    "opening": {},
+    "rows": [
+      {
+        "label": "E2, operación fila 3",
+        "deltas": {
+          "cash": "150000",
+          "capital": "150000"
+        },
+        "source_row": 3
+      },
+      {
+        "label": "E2, operación fila 4",
+        "deltas": {
+          "inventory": "75000",
+          "payables": "75000"
+        },
+        "source_row": 4
+      },
+      {
+        "label": "E2, operación fila 5",
+        "deltas": {
+          "cash": "-22500",
+          "payables": "-22500"
+        },
+        "source_row": 5
+      },
+      {
+        "label": "E2, operación fila 6",
+        "deltas": {
+          "intangibles": "20000",
+          "other_payables": "20000"
+        },
+        "source_row": 6
+      },
+      {
+        "label": "E2, operación fila 7",
+        "deltas": {
+          "receivables": "130000",
+          "retained": "130000"
+        },
+        "source_row": 7
+      },
+      {
+        "label": "E2, operación fila 8",
+        "deltas": {
+          "cash": "52000",
+          "receivables": "-52000"
+        },
+        "source_row": 8
+      },
+      {
+        "label": "E2, operación fila 9",
+        "deltas": {
+          "inventory": "-58500",
+          "retained": "-58500"
+        },
+        "source_row": 9
+      },
+      {
+        "label": "E2, operación fila 10",
+        "deltas": {
+          "equipment": "9000",
+          "other_payables": "9000"
+        },
+        "source_row": 10
+      },
+      {
+        "label": "E2, operación fila 11",
+        "deltas": {
+          "cash": "-9000",
+          "other_payables": "-9000"
+        },
+        "source_row": 11
+      },
+      {
+        "label": "E2, operación fila 12",
+        "deltas": {
+          "supplier_advance": "4500",
+          "equipment": "-4500"
+        },
+        "source_row": 12
+      },
+      {
+        "label": "E2, operación fila 13",
+        "deltas": {
+          "cash": "39000",
+          "receivables": "-39000"
+        },
+        "source_row": 13
+      },
+      {
+        "label": "E2, operación fila 14",
+        "deltas": {
+          "investments_cp": "65000",
+          "other_payables": "65000"
+        },
+        "source_row": 14
+      },
+      {
+        "label": "E2, operación fila 15",
+        "deltas": {
+          "cash": "-65000",
+          "other_payables": "-65000"
+        },
+        "source_row": 15
+      },
+      {
+        "label": "E2, operación fila 16",
+        "deltas": {
+          "inventory": "80000",
+          "payables": "80000"
+        },
+        "source_row": 16
+      },
+      {
+        "label": "E2, operación fila 17",
+        "deltas": {
+          "amort_intangibles": "-416.6666666666667",
+          "retained": "-416.6666666666667"
+        },
+        "source_row": 17
+      },
+      {
+        "label": "E2, operación fila 18",
+        "deltas": {
+          "dep_equipment": "-125",
+          "retained": "-125"
+        },
+        "source_row": 18
+      }
+    ],
+    "closing": null
+  },
+  "expected": {
+    "cash": "144500",
+    "receivables": "39000",
+    "investments_cp": "65000",
+    "inventory": "96500",
+    "supplier_advance": "4500",
+    "equipment": "4500",
+    "dep_equipment": "-125",
+    "intangibles": "20000",
+    "amort_intangibles": "-416.6666666666667",
+    "payables": "132500",
+    "other_payables": "20000",
+    "capital": "150000",
+    "retained": "70958.33333333333"
+  },
+  "expected_cells": {
+    "cash": "C19",
+    "receivables": "D19",
+    "investments_cp": "E19",
+    "inventory": "F19",
+    "supplier_advance": "G19",
+    "equipment": "H19",
+    "dep_equipment": "I19",
+    "intangibles": "J19",
+    "amort_intangibles": "K19",
+    "payables": "L19",
+    "other_payables": "M19",
+    "capital": "N19",
+    "retained": "O19"
+  },
+  "tolerance": "0.000001"
+}

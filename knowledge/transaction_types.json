@@ -1,0 +1,129 @@
+[
+  {
+    "id": "contribution",
+    "label": "Aporte en efectivo",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "asset_contribution",
+    "label": "Aporte en equipos",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "purchase",
+    "label": "Compra de mercadería",
+    "fields": [
+      "amount",
+      "cash_part"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "sale",
+    "label": "Venta con costo indicado",
+    "fields": [
+      "amount",
+      "cash_part",
+      "cost"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "collection",
+    "label": "Cobro a clientes",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "supplier_payment",
+    "label": "Pago a proveedores",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "loan",
+    "label": "Préstamo recibido",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "loan_payment",
+    "label": "Pago de préstamo",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "equipment_purchase",
+    "label": "Compra de equipos al contado",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "salary",
+    "label": "Gasto de sueldos",
+    "fields": [
+      "amount",
+      "cash_part"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "utilities",
+    "label": "Gasto de servicios LAT",
+    "fields": [
+      "amount",
+      "cash_part"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "interest",
+    "label": "Gasto por intereses",
+    "fields": [
+      "amount",
+      "cash_part",
+      "activity"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "dividend",
+    "label": "Declaración de dividendos",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "dividend_payment",
+    "label": "Pago de dividendos declarados",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  },
+  {
+    "id": "capitalization",
+    "label": "Capitalización de utilidades",
+    "fields": [
+      "amount"
+    ],
+    "source": "PD1 Ejercicio 2; PC1 Sol_P2; Park City; PD4"
+  }
+]

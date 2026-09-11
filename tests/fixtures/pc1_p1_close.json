@@ -1,0 +1,29 @@
+{
+  "id": "pc1_p1_close",
+  "kind": "close",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PCS/FC PC1 2026-2 Solucionario.xlsx",
+  "sha256": "0f680afb08584236f1344d4e1637b8926cb8bf0f373bb51e7d7888b268bacc16",
+  "sheet": "Sol_P1",
+  "input": {
+    "profit_items": [
+      "20000",
+      "-6000",
+      "-2000",
+      "-625",
+      "-1250"
+    ],
+    "capital": "36000"
+  },
+  "expected": {
+    "tax": "2986.875",
+    "reserve": "713.8125",
+    "retained": "6424.3125"
+  },
+  "expected_cells": {
+    "tax": "L10",
+    "reserve": "G20",
+    "retained": "G21"
+  },
+  "tolerance": "0.000001",
+  "private": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pd2_dep_edificio",
+  "kind": "depreciation",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD2/FC 2026-2 PD 2 Solucionario.xlsx",
+  "sha256": "8ea2f4311f1c9f5593f9923a46fe72c64909e96aff89b2c2e54ffb351d33b602",
+  "sheet": "E1",
+  "input": {
+    "cost": "465000",
+    "salvage": "105000",
+    "years": "30",
+    "months": "69"
+  },
+  "expected": {
+    "amount": "69000"
+  },
+  "expected_cells": {
+    "amount": "H4"
+  },
+  "tolerance": "0.000001"
+}

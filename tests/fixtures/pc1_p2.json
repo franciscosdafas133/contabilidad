@@ -1,0 +1,214 @@
+{
+  "id": "pc1_p2",
+  "kind": "matrix",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PCS/FC PC1 2026-2 Solucionario.xlsx",
+  "sha256": "0f680afb08584236f1344d4e1637b8926cb8bf0f373bb51e7d7888b268bacc16",
+  "sheet": "Sol_P2",
+  "input": {
+    "opening": {
+      "cash": "126000",
+      "investments_cp": "17000",
+      "receivables": "30000",
+      "other_receivables": "5000",
+      "inventory": "80000",
+      "prepaid_insurance": "0",
+      "land": "120000",
+      "buildings": "85000",
+      "equipment": "50000",
+      "dep_buildings": "-68000",
+      "dep_equipment": "-10000",
+      "tax_payable": "2000",
+      "payables": "20000",
+      "customer_advance": "3000",
+      "other_payables": "0",
+      "capital": "300000",
+      "reserve": "20000",
+      "retained": "90000"
+    },
+    "rows": [
+      {
+        "label": "Sol_P2, operación fila 4",
+        "deltas": {
+          "cash": "-8000",
+          "payables": "-8000"
+        },
+        "source_row": 4
+      },
+      {
+        "label": "Sol_P2, operación fila 5",
+        "deltas": {
+          "prepaid_insurance": "6000",
+          "other_payables": "6000"
+        },
+        "source_row": 5
+      },
+      {
+        "label": "Sol_P2, operación fila 6",
+        "deltas": {
+          "cash": "-6000",
+          "other_payables": "-6000"
+        },
+        "source_row": 6
+      },
+      {
+        "label": "Sol_P2, operación fila 7",
+        "deltas": {
+          "receivables": "20000",
+          "retained": "20000"
+        },
+        "source_row": 7
+      },
+      {
+        "label": "Sol_P2, operación fila 8",
+        "deltas": {
+          "cash": "20000",
+          "receivables": "-20000"
+        },
+        "source_row": 8
+      },
+      {
+        "label": "Sol_P2, operación fila 9",
+        "deltas": {
+          "inventory": "-15000",
+          "retained": "-15000"
+        },
+        "source_row": 9
+      },
+      {
+        "label": "Sol_P2, operación fila 10",
+        "deltas": {
+          "cash": "-2000",
+          "tax_payable": "-2000"
+        },
+        "source_row": 10
+      },
+      {
+        "label": "Sol_P2, operación fila 11",
+        "deltas": {
+          "inventory": "16000",
+          "payables": "16000"
+        },
+        "source_row": 11
+      },
+      {
+        "label": "Sol_P2, operación fila 12",
+        "deltas": {
+          "cash": "-11200",
+          "payables": "-11200"
+        },
+        "source_row": 12
+      },
+      {
+        "label": "Sol_P2, operación fila 13",
+        "deltas": {
+          "receivables": "10000",
+          "retained": "10000"
+        },
+        "source_row": 13
+      },
+      {
+        "label": "Sol_P2, operación fila 14",
+        "deltas": {
+          "cash": "8000",
+          "receivables": "-10000",
+          "customer_advance": "-2000"
+        },
+        "source_row": 14
+      },
+      {
+        "label": "Sol_P2, operación fila 15",
+        "deltas": {
+          "inventory": "-6000",
+          "retained": "-6000"
+        },
+        "source_row": 15
+      },
+      {
+        "label": "Sol_P2, operación fila 16",
+        "deltas": {
+          "investments_cp": "13000",
+          "other_payables": "13000"
+        },
+        "source_row": 16
+      },
+      {
+        "label": "Sol_P2, operación fila 17",
+        "deltas": {
+          "cash": "-13000",
+          "other_payables": "-13000"
+        },
+        "source_row": 17
+      },
+      {
+        "label": "Sol_P2, operación fila 18",
+        "deltas": {
+          "prepaid_insurance": "-1500",
+          "retained": "-1500"
+        },
+        "source_row": 18
+      },
+      {
+        "label": "Sol_P2, operación fila 19",
+        "deltas": {
+          "dep_buildings": "-4250",
+          "retained": "-4250"
+        },
+        "source_row": 19
+      },
+      {
+        "label": "Sol_P2, operación fila 20",
+        "deltas": {
+          "dep_equipment": "-2500",
+          "retained": "-2500"
+        },
+        "source_row": 20
+      }
+    ],
+    "closing": {
+      "tax_rate": "0.295",
+      "reserve_rate": "0.10"
+    }
+  },
+  "expected": {
+    "cash": "113800",
+    "investments_cp": "30000",
+    "receivables": "30000",
+    "other_receivables": "5000",
+    "inventory": "75000",
+    "prepaid_insurance": "4500",
+    "land": "120000",
+    "buildings": "85000",
+    "equipment": "50000",
+    "dep_buildings": "-72250",
+    "dep_equipment": "-12500",
+    "tax_payable": "221.25",
+    "payables": "16800",
+    "customer_advance": "1000",
+    "other_payables": "0",
+    "capital": "300000",
+    "reserve": "20052.875",
+    "retained": "90475.875"
+  },
+  "expected_cells": {
+    "cash": "B23",
+    "investments_cp": "C23",
+    "receivables": "D23",
+    "other_receivables": "E23",
+    "inventory": "F23",
+    "prepaid_insurance": "G23",
+    "land": "H23",
+    "buildings": "I23",
+    "equipment": "J23",
+    "dep_buildings": "K23",
+    "dep_equipment": "L23",
+    "tax_payable": "N23",
+    "payables": "O23",
+    "customer_advance": "P23",
+    "other_payables": "Q23",
+    "capital": "S23",
+    "reserve": "T23",
+    "retained": "U23"
+  },
+  "tolerance": "0.000001",
+  "private": true
+}

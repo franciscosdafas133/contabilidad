@@ -1,0 +1,241 @@
+{
+  "id": "super_smash",
+  "kind": "matrix",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/Semana 2/solejercicio 4  ESF Super Smash.xlsx",
+  "sha256": "8669909a0fc834e764fba6d84d7a9937fff805a937083b1d1ba46a4a1b679dd1",
+  "sheet": "ecuacion contable",
+  "input": {
+    "opening": {},
+    "rows": [
+      {
+        "label": "ecuacion contable, operación fila 3",
+        "deltas": {
+          "cash": "100000",
+          "inventory": "450000",
+          "equipment": "30000",
+          "vehicles": "50000",
+          "capital": "630000"
+        },
+        "source_row": 3
+      },
+      {
+        "label": "ecuacion contable, operación fila 4",
+        "deltas": {
+          "cash": "-36000",
+          "prepaid_rent": "18000",
+          "prepaid_rent_lp": "18000"
+        },
+        "source_row": 4
+      },
+      {
+        "label": "ecuacion contable, operación fila 5",
+        "deltas": {
+          "prepaid_rent_lp": "-18000",
+          "retained": "-18000"
+        },
+        "source_row": 5
+      },
+      {
+        "label": "ecuacion contable, operación fila 6",
+        "deltas": {
+          "cash": "147000",
+          "receivables": "63000",
+          "retained": "210000"
+        },
+        "source_row": 6
+      },
+      {
+        "label": "ecuacion contable, operación fila 7",
+        "deltas": {
+          "inventory": "-180000",
+          "retained": "-180000"
+        },
+        "source_row": 7
+      },
+      {
+        "label": "ecuacion contable, operación fila 8",
+        "deltas": {
+          "inventory": "480000",
+          "payables": "480000"
+        },
+        "source_row": 8
+      },
+      {
+        "label": "ecuacion contable, operación fila 9",
+        "deltas": {
+          "cash": "63000",
+          "receivables": "-63000"
+        },
+        "source_row": 9
+      },
+      {
+        "label": "ecuacion contable, operación fila 10",
+        "deltas": {
+          "cash": "640000",
+          "notes_receivable": "160000",
+          "retained": "800000"
+        },
+        "source_row": 10
+      },
+      {
+        "label": "ecuacion contable, operación fila 11",
+        "deltas": {
+          "inventory": "-660000",
+          "retained": "-660000"
+        },
+        "source_row": 11
+      },
+      {
+        "label": "ecuacion contable, operación fila 12",
+        "deltas": {
+          "inventory": "750000",
+          "payables": "750000"
+        },
+        "source_row": 12
+      },
+      {
+        "label": "ecuacion contable, operación fila 13",
+        "deltas": {
+          "cash": "-5000",
+          "investments_lp": "5000"
+        },
+        "source_row": 13
+      },
+      {
+        "label": "ecuacion contable, operación fila 14",
+        "deltas": {
+          "cash": "160000",
+          "notes_receivable": "-160000"
+        },
+        "source_row": 14
+      },
+      {
+        "label": "ecuacion contable, operación fila 15",
+        "deltas": {
+          "cash": "-4000",
+          "staff_receivables": "4000"
+        },
+        "source_row": 15
+      },
+      {
+        "label": "ecuacion contable, operación fila 16",
+        "deltas": {
+          "cash": "440000",
+          "retained": "440000"
+        },
+        "source_row": 16
+      },
+      {
+        "label": "ecuacion contable, operación fila 17",
+        "deltas": {
+          "inventory": "-300000",
+          "retained": "-300000"
+        },
+        "source_row": 17
+      },
+      {
+        "label": "ecuacion contable, operación fila 18",
+        "deltas": {
+          "cash": "660000",
+          "retained": "660000"
+        },
+        "source_row": 18
+      },
+      {
+        "label": "ecuacion contable, operación fila 19",
+        "deltas": {
+          "inventory": "-450000",
+          "retained": "-450000"
+        },
+        "source_row": 19
+      },
+      {
+        "label": "ecuacion contable, operación fila 20",
+        "deltas": {
+          "cash": "-480000",
+          "payables": "-480000"
+        },
+        "source_row": 20
+      },
+      {
+        "label": "ecuacion contable, operación fila 21",
+        "deltas": {
+          "dep_equipment": "-7500",
+          "retained": "-7500"
+        },
+        "source_row": 21
+      },
+      {
+        "label": "ecuacion contable, operación fila 22",
+        "deltas": {
+          "dep_vehicles": "-10000",
+          "retained": "-10000"
+        },
+        "source_row": 22
+      },
+      {
+        "label": "ecuacion contable, operación fila 23",
+        "deltas": {
+          "cash": "-13750",
+          "salaries_payable": "1250",
+          "retained": "-15000"
+        },
+        "source_row": 23
+      },
+      {
+        "label": "ecuacion contable, operación fila 24",
+        "deltas": {
+          "cash": "-900",
+          "retained": "-900"
+        },
+        "source_row": 24
+      }
+    ],
+    "closing": {
+      "tax_rate": "0.30",
+      "reserve_rate": "0.10"
+    }
+  },
+  "expected": {
+    "cash": "1670350",
+    "receivables": "0",
+    "notes_receivable": "0",
+    "staff_receivables": "4000",
+    "inventory": "90000",
+    "prepaid_rent": "18000",
+    "prepaid_rent_lp": "0",
+    "investments_lp": "5000",
+    "equipment": "30000",
+    "dep_equipment": "-7500",
+    "vehicles": "50000",
+    "dep_vehicles": "-10000",
+    "tax_payable": "140580",
+    "payables": "750000",
+    "salaries_payable": "1250",
+    "capital": "630000",
+    "reserve": "32802",
+    "retained": "295218"
+  },
+  "expected_cells": {
+    "cash": "B28",
+    "receivables": "C28",
+    "notes_receivable": "D28",
+    "staff_receivables": "E28",
+    "inventory": "F28",
+    "prepaid_rent": "G28",
+    "prepaid_rent_lp": "H28",
+    "investments_lp": "I28",
+    "equipment": "J28",
+    "dep_equipment": "K28",
+    "vehicles": "L28",
+    "dep_vehicles": "M28",
+    "tax_payable": "O28",
+    "payables": "P28",
+    "salaries_payable": "Q28",
+    "capital": "R28",
+    "reserve": "S28",
+    "retained": "T28"
+  },
+  "tolerance": "0.000001",
+  "triage": "SS-01: tasa histórica 30%, impuesto C4. La cifra UAIR C3 se contrasta contra la matriz."
+}

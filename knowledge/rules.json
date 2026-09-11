@@ -1,0 +1,77 @@
+{
+  "equation": {
+    "text": "Cada operación conserva Activo + Gasto = Pasivo + Patrimonio Neto + Ingreso.",
+    "source": "Semana 1, Ejercicio 2; PD1 Ejercicio 2",
+    "evidence": "R"
+  },
+  "classification": {
+    "text": "Clasifica por elemento; una contra-cuenta mantiene el elemento y resta en su sección.",
+    "source": "PD1 Ejercicio 1; PD2 E3",
+    "evidence": "R"
+  },
+  "esf": {
+    "text": "Presenta AC, ANC, PC, PNC y PN; el efectivo negativo se reclasifica como sobregiro.",
+    "source": "Presentación 2; PD2 E3",
+    "evidence": "R"
+  },
+  "sale": {
+    "text": "La venta reconoce el ingreso; el costo se reconoce por separado cuando el enunciado lo proporciona.",
+    "source": "Semana 1 Ejercicio 2; PD1 Ejercicio 2",
+    "evidence": "R"
+  },
+  "periodic": {
+    "text": "Costo de ventas = inventario inicial + compras netas − inventario final; separa el robo solo cuando lo pide el caso.",
+    "source": "Presentación 3; Park City hoja de trabajo C4:C9; Las Vegas H8:H12",
+    "evidence": "R"
+  },
+  "depreciation": {
+    "text": "Depreciación = (costo − rescate) / vida útil × fracción de período. El terreno no se deprecia.",
+    "source": "PD2 E1 H3:H7; PPTX Análisis adicional ESF",
+    "evidence": "R"
+  },
+  "amortization": {
+    "text": "La amortización del intangible se prorratea sin valor de rescate.",
+    "source": "PD2 E2 K17; PPTX Análisis adicional ESF",
+    "evidence": "R"
+  },
+  "prorate": {
+    "text": "Reconoce como gasto únicamente la parte consumida del pago anticipado.",
+    "source": "PC1 Sol_P1 L7; Park City hoja de trabajo C14:C19",
+    "evidence": "R"
+  },
+  "tax": {
+    "text": "Calcula el impuesto con la tasa indicada por el ejercicio sobre la utilidad antes del impuesto.",
+    "source": "PC1 Sol_P1 L10; PD3 E1 G40; Super Smash impuesto C4",
+    "evidence": "R"
+  },
+  "reserve": {
+    "text": "La transferencia es 10% de la utilidad neta, limitada al espacio hasta 20% del capital.",
+    "source": "PPTX Análisis adicional ESF; PD3 E2 ECPTN D32",
+    "evidence": "R"
+  },
+  "er": {
+    "text": "Ventas netas menos costo y gastos, más otros ingresos, determinan la utilidad antes de impuestos.",
+    "source": "PD3 E1 ER G15:G41; Ejemplo de ER",
+    "evidence": "R"
+  },
+  "ecpn": {
+    "text": "Aportes, utilidad, reservas, capitalización y dividendos explican el cambio patrimonial.",
+    "source": "PD3 E2 ECPTN B24:F30; Valparaíso C10:F17",
+    "evidence": "R"
+  },
+  "efe": {
+    "text": "El EFE directo registra cobros y pagos AO/AI/AF; el devengado no es un flujo.",
+    "source": "Presentación 4; PD3 E3 EFE; PD4 Pregunta 1 C23",
+    "evidence": "R"
+  },
+  "noncash": {
+    "text": "Los aportes en activos y dividendos pendientes no producen efectivo.",
+    "source": "PD4 Pregunta 1 D23; PD3 Ejercicio 2 enunciado",
+    "evidence": "R"
+  },
+  "relationship": {
+    "text": "La utilidad del ER alimenta el ECPN; el efectivo del EFE debe conciliar con el ESF.",
+    "source": "Park City EEFF Solución; PD4 Pregunta 2",
+    "evidence": "R"
+  }
+}

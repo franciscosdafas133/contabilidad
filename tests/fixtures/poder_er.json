@@ -1,0 +1,38 @@
+{
+  "id": "poder_er",
+  "kind": "er",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/Semana 3 y 4/Ejemplo de Estado de Resultados.xlsx",
+  "sha256": "db90ea4c96df8876b0a571e24545659a5a6bf84465b179888212f0fab34f61fd",
+  "sheet": "Ejemplo de ER",
+  "input": {
+    "balances": {
+      "sales": "650000",
+      "sales_returns": "2000",
+      "cost": "320000",
+      "insurance_expense": "25000",
+      "salary_expense": "28000",
+      "utilities": "5000",
+      "donation_income": "50000",
+      "dep_expense": "3000",
+      "interest_expense": "500",
+      "interest_income": "2500"
+    }
+  },
+  "expected": {
+    "net_sales": "648000",
+    "gross_profit": "328000",
+    "operating_profit": "317000",
+    "profit_before_tax": "319000",
+    "tax": "94105",
+    "net_profit": "224895"
+  },
+  "expected_cells": {
+    "net_sales": "C8",
+    "gross_profit": "C10",
+    "operating_profit": "C22",
+    "profit_before_tax": "C30",
+    "tax": "C32",
+    "net_profit": "C34"
+  },
+  "tolerance": "0.000001"
+}

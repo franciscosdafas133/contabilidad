@@ -1,0 +1,42 @@
+{
+  "id": "las_vegas_er",
+  "kind": "er",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/Semana 3 y 4/1. solucionario ejercicio  sobre ER ECPN EFE Cia LAs Vegas 1 (1).xlsx",
+  "sha256": "9ed8a2eac3f3c687bd7c1544f9c7f88d5c491b892c356a51bc2ef71cc6404646",
+  "sheet": "pregunta 1",
+  "input": {
+    "balances": {
+      "sales": "1500000",
+      "sales_returns": "85000",
+      "sales_discount": "12000",
+      "cost": "890000",
+      "salary_expense": "85000",
+      "utilities": "45000",
+      "bad_debt": "1500",
+      "rent_expense": "21000",
+      "dep_expense": "8458.333333333333333333333333",
+      "amort_expense": "5500",
+      "theft": "5000",
+      "interest_expense": "8900"
+    }
+  },
+  "expected": {
+    "net_sales": "1403000",
+    "cost": "890000",
+    "gross_profit": "513000",
+    "operating_profit": "341541.6666666666",
+    "profit_before_tax": "332641.6666666666",
+    "tax": "98129.29166666666",
+    "net_profit": "234512.37499999997"
+  },
+  "expected_cells": {
+    "net_sales": "C10",
+    "cost": "C11",
+    "gross_profit": "C12",
+    "operating_profit": "C24",
+    "profit_before_tax": "C30",
+    "tax": "C31",
+    "net_profit": "C32"
+  },
+  "tolerance": "0.000001"
+}

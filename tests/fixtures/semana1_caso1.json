@@ -1,0 +1,141 @@
+{
+  "id": "semana1_caso1",
+  "kind": "matrix",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/Semana 1/solucionario ejercicio 2 ecuación contable (3).xlsx",
+  "sha256": "dce587accae3bd1bbb57b1008fd540080f2f5715e86f3ecf7d9c7e2d4541d07b",
+  "sheet": "caso 1",
+  "input": {
+    "opening": {},
+    "rows": [
+      {
+        "label": "caso 1, operación fila 3",
+        "deltas": {
+          "cash": "289000",
+          "capital": "289000"
+        },
+        "source_row": 3
+      },
+      {
+        "label": "caso 1, operación fila 4",
+        "deltas": {
+          "equipment": "2000",
+          "other_payables": "2000"
+        },
+        "source_row": 4
+      },
+      {
+        "label": "caso 1, operación fila 5",
+        "deltas": {
+          "cash": "-40000",
+          "buildings": "40000"
+        },
+        "source_row": 5
+      },
+      {
+        "label": "caso 1, operación fila 6",
+        "deltas": {
+          "cash": "-15000",
+          "inventory": "15000"
+        },
+        "source_row": 6
+      },
+      {
+        "label": "caso 1, operación fila 7",
+        "deltas": {
+          "cash": "-500",
+          "inventory": "500"
+        },
+        "source_row": 7
+      },
+      {
+        "label": "caso 1, operación fila 8",
+        "deltas": {
+          "receivables": "8000",
+          "retained": "8000"
+        },
+        "source_row": 8
+      },
+      {
+        "label": "caso 1, operación fila 9",
+        "deltas": {
+          "inventory": "-3000",
+          "retained": "-3000"
+        },
+        "source_row": 9
+      },
+      {
+        "label": "caso 1, operación fila 10",
+        "deltas": {
+          "cash": "8000",
+          "receivables": "-8000"
+        },
+        "source_row": 10
+      },
+      {
+        "label": "caso 1, operación fila 11",
+        "deltas": {
+          "cash": "-2000",
+          "other_payables": "-2000"
+        },
+        "source_row": 11
+      },
+      {
+        "label": "caso 1, operación fila 12",
+        "deltas": {
+          "cash": "12000",
+          "retained": "12000"
+        },
+        "source_row": 12
+      },
+      {
+        "label": "caso 1, operación fila 13",
+        "deltas": {
+          "inventory": "-2500",
+          "retained": "-2500"
+        },
+        "source_row": 13
+      },
+      {
+        "label": "caso 1, operación fila 14",
+        "deltas": {
+          "other_payables": "600",
+          "retained": "-600"
+        },
+        "source_row": 14
+      },
+      {
+        "label": "caso 1, operación fila 15",
+        "deltas": {
+          "cash": "-3400",
+          "salaries_payable": "600",
+          "retained": "-4000"
+        },
+        "source_row": 15
+      }
+    ],
+    "closing": null
+  },
+  "expected": {
+    "cash": "248100",
+    "receivables": "0",
+    "inventory": "10000",
+    "equipment": "2000",
+    "buildings": "40000",
+    "salaries_payable": "600",
+    "other_payables": "600",
+    "capital": "289000",
+    "retained": "9900"
+  },
+  "expected_cells": {
+    "cash": "B16",
+    "receivables": "C16",
+    "inventory": "D16",
+    "equipment": "E16",
+    "buildings": "F16",
+    "salaries_payable": "H16",
+    "other_payables": "I16",
+    "capital": "J16",
+    "retained": "K16"
+  },
+  "tolerance": "0.000001"
+}

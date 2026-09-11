@@ -1,0 +1,72 @@
+{
+  "id": "pd4_terracan",
+  "kind": "efe",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD4/FC PD4 26-2 Soluciónvf.xlsx",
+  "sha256": "f85f8fdffb28cfb120acdb68c1b85980d34ee33601f4697468ba73f80011ad78",
+  "sheet": "Pregunta 1- sol",
+  "input": {
+    "initial": "20000",
+    "flows": [
+      {
+        "label": "Cobranza de clientes",
+        "activity": "AO",
+        "amount": "1550000"
+      },
+      {
+        "label": "Pago a proveedores",
+        "activity": "AO",
+        "amount": "-1060000"
+      },
+      {
+        "label": "Pago de sueldos",
+        "activity": "AO",
+        "amount": "-80000"
+      },
+      {
+        "label": "Pago de gastos de alquiler",
+        "activity": "AO",
+        "amount": "-62500"
+      },
+      {
+        "label": "Pago de gastos LAT",
+        "activity": "AO",
+        "amount": "-30000"
+      },
+      {
+        "label": "Pago del 50% por la compra de activo fijo",
+        "activity": "AI",
+        "amount": "-564250"
+      },
+      {
+        "label": "Aporte de capital en efectivo",
+        "activity": "AF",
+        "amount": "700000"
+      },
+      {
+        "label": "Préstamo bancario CITYSBANK",
+        "activity": "AF",
+        "amount": "1300000"
+      },
+      {
+        "label": "Pago de préstamo bancario",
+        "activity": "AF",
+        "amount": "-110000"
+      }
+    ]
+  },
+  "expected": {
+    "AO": "317500",
+    "AI": "-564250",
+    "AF": "1890000",
+    "change": "1643250",
+    "final": "1663250"
+  },
+  "expected_cells": {
+    "AO": "C14",
+    "AI": "C19",
+    "AF": "C26",
+    "change": "C28",
+    "final": "C30"
+  },
+  "tolerance": "0.000001"
+}

@@ -1,0 +1,44 @@
+{
+  "ESF": {
+    "title": "Estado de Situación Financiera",
+    "sections": [
+      "AC",
+      "ANC",
+      "PC",
+      "PNC",
+      "PN"
+    ],
+    "time": "Al"
+  },
+  "ER": {
+    "title": "Estado de Resultados",
+    "sections": [
+      "sales",
+      "deductions",
+      "cost",
+      "operating",
+      "financial",
+      "tax"
+    ],
+    "time": "Del"
+  },
+  "ECPN": {
+    "title": "Estado de Cambios en el Patrimonio Neto",
+    "sections": [
+      "capital",
+      "reserve",
+      "voluntary_reserve",
+      "retained"
+    ],
+    "time": "Del"
+  },
+  "EFE": {
+    "title": "Estado de Flujos de Efectivo",
+    "sections": [
+      "AO",
+      "AI",
+      "AF"
+    ],
+    "time": "Del"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "pd3_er",
+  "kind": "er",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD3/FC 2026-2 PD 3 Solucionario.xlsx",
+  "sha256": "9bda2749c12a388edbf0ec84982202725aea27a5271d79db5a068eb502be7971",
+  "sheet": "E1 ER",
+  "input": {
+    "balances": {
+      "sales": "1000000",
+      "sales_returns": "10000",
+      "sales_discount": "250",
+      "cost": "350000",
+      "salary_expense": "36000",
+      "utilities": "14400",
+      "rent_expense": "150000",
+      "dep_expense": "27600",
+      "bad_debt": "10150",
+      "donation_expense": "5400",
+      "asset_gain": "20000",
+      "exchange_income": "13500",
+      "interest_expense": "5000",
+      "interest_income": "3500"
+    }
+  },
+  "expected": {
+    "net_sales": "989750",
+    "gross_profit": "639750",
+    "operating_profit": "416200",
+    "profit_before_tax": "428200",
+    "tax": "126319",
+    "net_profit": "301881"
+  },
+  "expected_cells": {
+    "net_sales": "G18",
+    "gross_profit": "G20",
+    "operating_profit": "G32",
+    "profit_before_tax": "G38",
+    "tax": "G40",
+    "net_profit": "G41"
+  },
+  "tolerance": "0.000001"
+}

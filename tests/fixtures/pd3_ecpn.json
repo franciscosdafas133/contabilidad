@@ -1,0 +1,33 @@
+{
+  "id": "pd3_ecpn",
+  "kind": "ecpn",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD3/FC 2026-2 PD 3 Solucionario.xlsx",
+  "sha256": "9bda2749c12a388edbf0ec84982202725aea27a5271d79db5a068eb502be7971",
+  "sheet": "E2 ECPTN",
+  "input": {
+    "opening": {
+      "capital": "300000",
+      "reserve": "50000",
+      "retained": "200000"
+    },
+    "profit": "70000",
+    "contribution": "180000",
+    "voluntary": "40000",
+    "dividends": "80000"
+  },
+  "expected": {
+    "capital": "480000",
+    "reserve": "57000",
+    "voluntary_reserve": "40000",
+    "retained": "143000",
+    "total": "720000"
+  },
+  "expected_cells": {
+    "capital": "B30",
+    "reserve": "C30",
+    "voluntary_reserve": "D30",
+    "retained": "E30",
+    "total": "F30"
+  },
+  "tolerance": "0.000001"
+}

@@ -1,0 +1,266 @@
+{
+  "id": "pd1_ecuacion",
+  "kind": "matrix",
+  "source": "OneDrive_2026-09-11/Fundamentos de Contabilidad/PDs/PD1/FC 2026-2 PD 1 Solucionario.xlsx",
+  "sha256": "bbc5b4392a1efd8489a431bbdfb7a6e5ae668422114066c31430ada0177ca3a9",
+  "sheet": "Ejercicio 2",
+  "input": {
+    "opening": {},
+    "rows": [
+      {
+        "label": "Ejercicio 2, operación fila 3",
+        "deltas": {
+          "cash": "200000",
+          "inventory": "50000",
+          "vehicles": "100000",
+          "capital": "350000"
+        },
+        "source_row": 3
+      },
+      {
+        "label": "Ejercicio 2, operación fila 4",
+        "deltas": {
+          "prepaid_rent": "24000",
+          "other_payables": "24000"
+        },
+        "source_row": 4
+      },
+      {
+        "label": "Ejercicio 2, operación fila 5",
+        "deltas": {
+          "cash": "-24000",
+          "other_payables": "-24000"
+        },
+        "source_row": 5
+      },
+      {
+        "label": "Ejercicio 2, operación fila 6",
+        "deltas": {
+          "inventory": "120000",
+          "payables": "120000"
+        },
+        "source_row": 6
+      },
+      {
+        "label": "Ejercicio 2, operación fila 7",
+        "deltas": {
+          "cash": "-48000",
+          "payables": "-48000"
+        },
+        "source_row": 7
+      },
+      {
+        "label": "Ejercicio 2, operación fila 8",
+        "deltas": {
+          "intangibles": "40000",
+          "other_payables": "40000"
+        },
+        "source_row": 8
+      },
+      {
+        "label": "Ejercicio 2, operación fila 9",
+        "deltas": {
+          "cash": "-40000",
+          "other_payables": "-40000"
+        },
+        "source_row": 9
+      },
+      {
+        "label": "Ejercicio 2, operación fila 10",
+        "deltas": {
+          "equipment": "45000",
+          "other_payables": "45000"
+        },
+        "source_row": 10
+      },
+      {
+        "label": "Ejercicio 2, operación fila 11",
+        "deltas": {
+          "cash": "-72000",
+          "payables": "-72000"
+        },
+        "source_row": 11
+      },
+      {
+        "label": "Ejercicio 2, operación fila 12",
+        "deltas": {
+          "receivables": "50000",
+          "retained": "50000"
+        },
+        "source_row": 12
+      },
+      {
+        "label": "Ejercicio 2, operación fila 13",
+        "deltas": {
+          "cash": "35000",
+          "receivables": "-35000"
+        },
+        "source_row": 13
+      },
+      {
+        "label": "Ejercicio 2, operación fila 14",
+        "deltas": {
+          "inventory": "-10000",
+          "retained": "-10000"
+        },
+        "source_row": 14
+      },
+      {
+        "label": "Ejercicio 2, operación fila 15",
+        "deltas": {
+          "prepaid_insurance": "9600",
+          "other_payables": "9600"
+        },
+        "source_row": 15
+      },
+      {
+        "label": "Ejercicio 2, operación fila 16",
+        "deltas": {
+          "cash": "180000",
+          "loan_lp": "180000"
+        },
+        "source_row": 16
+      },
+      {
+        "label": "Ejercicio 2, operación fila 17",
+        "deltas": {
+          "cash": "15000",
+          "receivables": "-15000"
+        },
+        "source_row": 17
+      },
+      {
+        "label": "Ejercicio 2, operación fila 18",
+        "deltas": {
+          "receivables": "65000",
+          "retained": "65000"
+        },
+        "source_row": 18
+      },
+      {
+        "label": "Ejercicio 2, operación fila 19",
+        "deltas": {
+          "cash": "65000",
+          "receivables": "-65000"
+        },
+        "source_row": 19
+      },
+      {
+        "label": "Ejercicio 2, operación fila 20",
+        "deltas": {
+          "inventory": "-39000",
+          "retained": "-39000"
+        },
+        "source_row": 20
+      },
+      {
+        "label": "Ejercicio 2, operación fila 21",
+        "deltas": {
+          "cash": "80000",
+          "capital": "80000"
+        },
+        "source_row": 21
+      },
+      {
+        "label": "Ejercicio 2, operación fila 22",
+        "deltas": {
+          "receivables": "55000",
+          "retained": "55000"
+        },
+        "source_row": 22
+      },
+      {
+        "label": "Ejercicio 2, operación fila 23",
+        "deltas": {
+          "cash": "16500",
+          "receivables": "-16500"
+        },
+        "source_row": 23
+      },
+      {
+        "label": "Ejercicio 2, operación fila 24",
+        "deltas": {
+          "inventory": "-20000",
+          "retained": "-20000"
+        },
+        "source_row": 24
+      },
+      {
+        "label": "Ejercicio 2, operación fila 25",
+        "deltas": {
+          "cash": "-35000",
+          "investments_lp": "35000"
+        },
+        "source_row": 25
+      },
+      {
+        "label": "Ejercicio 2, operación fila 26",
+        "deltas": {
+          "other_payables": "4250",
+          "retained": "-4250"
+        },
+        "source_row": 26
+      },
+      {
+        "label": "Ejercicio 2, operación fila 27",
+        "deltas": {
+          "cash": "-4250",
+          "other_payables": "-4250"
+        },
+        "source_row": 27
+      },
+      {
+        "label": "Ejercicio 2, operación fila 28",
+        "deltas": {
+          "salaries_payable": "22500",
+          "retained": "-22500"
+        },
+        "source_row": 28
+      },
+      {
+        "label": "Ejercicio 2, operación fila 29",
+        "deltas": {
+          "cash": "-18000",
+          "salaries_payable": "-18000"
+        },
+        "source_row": 29
+      }
+    ],
+    "closing": null
+  },
+  "expected": {
+    "cash": "350250",
+    "receivables": "38500",
+    "inventory": "101000",
+    "intangibles": "40000",
+    "prepaid_rent": "24000",
+    "prepaid_insurance": "9600",
+    "investments_lp": "35000",
+    "vehicles": "100000",
+    "equipment": "45000",
+    "salaries_payable": "4500",
+    "payables": "0",
+    "other_payables": "54600",
+    "loan_lp": "180000",
+    "capital": "430000",
+    "retained": "74250"
+  },
+  "expected_cells": {
+    "cash": "C30",
+    "receivables": "D30",
+    "inventory": "E30",
+    "intangibles": "F30",
+    "prepaid_rent": "G30",
+    "prepaid_insurance": "H30",
+    "investments_lp": "I30",
+    "vehicles": "J30",
+    "equipment": "K30",
+    "salaries_payable": "M30",
+    "payables": "N30",
+    "other_payables": "O30",
+    "loan_lp": "P30",
+    "capital": "R30",
+    "retained": "S30"
+  },
+  "tolerance": "0.000001"
+}
