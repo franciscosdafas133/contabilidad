@@ -12,7 +12,7 @@ export default defineConfig({
   reporter: [['list'], ['html', { open: 'never' }]],
   use: { baseURL: 'http://127.0.0.1:8001', trace: 'retain-on-failure', screenshot: 'only-on-failure', viewport: { width: 1440, height: 1000 } },
   webServer: {
-    command: '..\\.venv\\Scripts\\python.exe -m uvicorn api.app:app --app-dir .. --host 127.0.0.1 --port 8001',
+    command: '..\\.venv\\Scripts\\python.exe -m uvicorn backend.app:app --app-dir .. --host 127.0.0.1 --port 8001',
     url: 'http://127.0.0.1:8001/api/health',
     env: { CONTA_DB: join(dataDir, 'progress.sqlite3') },
     reuseExistingServer: false,

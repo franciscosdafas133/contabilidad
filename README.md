@@ -15,7 +15,7 @@ python -m venv .venv
 # Windows
 .\.venv\Scripts\activate
 pip install -e ".[test]"
-uvicorn api.app:app --reload --host 127.0.0.1 --port 8000
+uvicorn backend.app:app --reload --host 127.0.0.1 --port 8000
 
 # otra terminal
 cd web

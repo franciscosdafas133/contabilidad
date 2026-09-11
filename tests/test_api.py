@@ -4,7 +4,7 @@ from decimal import Decimal
 import json
 import pytest
 from fastapi.testclient import TestClient
-from api.app import create_app
+from backend.app import create_app
 from engine.catalog import ROOT
 from engine.exercises import get_exercise, solve
 from engine.money import display

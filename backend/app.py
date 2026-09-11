@@ -15,7 +15,7 @@ from engine.scenarios import park_city
 from engine.equation import Ledger
 from engine.projections import project
 from engine.transactions import apply_operation
-from .storage import ProgressStore
+from backend.storage import ProgressStore
 
 
 class CheckRequest(BaseModel):
