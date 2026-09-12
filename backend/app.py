@@ -36,13 +36,17 @@ def create_app(db_path=None):
     if db_path is None:
         db_path=os.getenv('CONTA_DB')
     if not db_path:
-        db_path='/tmp/progress.sqlite3' if os.getenv('VERCEL') else str(ROOT/'data/progress.sqlite3')
+        if os.getenv('VERCEL') or os.getenv('RENDER') or os.getenv('CONTAINER'):
+            db_path='/tmp/progress.sqlite3'
+        else:
+            db_path=str(ROOT/'data/progress.sqlite3')
     store=ProgressStore(db_path)
     app.state.store=store
-    allowed_hosts=['localhost','127.0.0.1','testserver','.vercel.app','.onrender.com']
-    extra_hosts=[h.strip() for h in os.getenv('ALLOWED_HOSTS','').split(',') if h.strip()]
-    allowed_hosts.extend(extra_hosts)
-    app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts)
+    if not os.getenv('VERCEL'):
+        allowed_hosts=['localhost','127.0.0.1','testserver','.vercel.app','.onrender.com']
+        extra_hosts=[h.strip() for h in os.getenv('ALLOWED_HOSTS','').split(',') if h.strip()]
+        allowed_hosts.extend(extra_hosts)
+        app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts)
 
     def origin_ok(origin:str)->bool:
         from urllib.parse import urlparse

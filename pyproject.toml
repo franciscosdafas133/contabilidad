@@ -10,8 +10,8 @@ test = ["pytest>=8,<10", "httpx>=0.28,<1", "pytest-cov>=6,<8"]
 [tool.vercel]
 entrypoint = "app:app"
 
-[tool.vercel.fastapi.static]
-cdn = true
+[tool.vercel.scripts]
+build = "npm run build:web"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
@@ -20,4 +20,3 @@ addopts = "-ra"
 
 [tool.coverage.run]
 source = ["engine", "backend"]
-

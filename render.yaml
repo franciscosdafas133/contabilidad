@@ -3,7 +3,10 @@ services:
     name: fundamentos-contabilidad
     runtime: docker
     plan: free
+    region: oregon
+    branch: main
+    autoDeploy: true
     healthCheckPath: /api/health
     envVars:
-      - key: PYTHON_VERSION
-        value: "3.12.8"
+      - key: CONTAINER
+        value: "1"
