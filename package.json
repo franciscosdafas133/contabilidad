@@ -2,6 +2,6 @@
   "name": "fundamentos-contabilidad",
   "private": true,
   "scripts": {
-    "build:web": "npm --prefix web install && npm --prefix web run build"
+    "build:web": "npm --prefix web install && npm --prefix web run build && node scripts/sync-public.mjs"
   }
 }
