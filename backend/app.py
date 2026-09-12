@@ -146,9 +146,8 @@ def create_app(db_path=None):
                 predicted.append({'account':key,'expected':expected,'correct':correct,'message':message})
         return serialize({'before':before,'after':after,'changes':changes,'operation_count':len(body.operations),'prediction_feedback':predicted})
 
-    # En Vercel el front va en public/ (CDN). En local, si hay web/dist, se sirve desde FastAPI.
     build=ROOT/'web/dist'
-    if build.exists() and not os.getenv('VERCEL'):
+    if build.exists():
         app.frontend('/',directory=build,fallback='index.html',check_dir=False)
     return app
 
