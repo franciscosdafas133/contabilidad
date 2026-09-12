@@ -26,19 +26,23 @@ npm run dev
 - App: http://127.0.0.1:5173 (proxy `/api` → `:8000`)
 - API directa: http://127.0.0.1:8000/api/health
 
-## Deploy en Vercel
+## Deploy (recomendado: Render)
 
-1. Importa el repo en [Vercel](https://vercel.com/new).
-2. Framework preset: **FastAPI**.
-3. **Root Directory: déjalo vacío / `./`** (NO pongas `web`).
-4. No hace falta tocar Build Command (viene de `vercel.json`).
-5. Deploy.
+Vercel ha dado problemas con este stack (front estático + FastAPI + varios proyectos). Usa **Render**:
 
-Comprueba después: `https://TU-URL.vercel.app/api/health` debe devolver JSON.
+1. Entra a [https://render.com](https://render.com) e importa `franciscosdafas133/contabilidad`.
+2. Elige **Blueprint** (`render.yaml`) o **Web Service** con Dockerfile.
+3. Deploy. Health check: `/api/health`.
 
-Si ves HTML en vez de JSON, desactiva **Deployment Protection** (Settings → Deployment Protection).
+### Vercel (si lo sigues usando)
 
-El progreso en Vercel usa SQLite en `/tmp` (efímero entre instancias serverless).
+1. Deja **un solo** proyecto Vercel ligado al repo (borra duplicados: `web`, `*-trkn`, etc.).
+2. Root Directory: `./`
+3. Framework: FastAPI
+4. **Desactiva Deployment Protection** (Settings → Deployment Protection → Off).
+5. Commit actual: debe ser `2b12ee4` o más nuevo.
+
+El progreso en hosting serverless/efímero usa SQLite en `/tmp` cuando aplica.
 
 ## Notas
 

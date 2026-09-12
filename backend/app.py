@@ -39,7 +39,7 @@ def create_app(db_path=None):
         db_path='/tmp/progress.sqlite3' if os.getenv('VERCEL') else str(ROOT/'data/progress.sqlite3')
     store=ProgressStore(db_path)
     app.state.store=store
-    allowed_hosts=['localhost','127.0.0.1','testserver','.vercel.app']
+    allowed_hosts=['localhost','127.0.0.1','testserver','.vercel.app','.onrender.com']
     extra_hosts=[h.strip() for h in os.getenv('ALLOWED_HOSTS','').split(',') if h.strip()]
     allowed_hosts.extend(extra_hosts)
     app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts)
@@ -47,7 +47,7 @@ def create_app(db_path=None):
     def origin_ok(origin:str)->bool:
         from urllib.parse import urlparse
         host=(urlparse(origin).hostname or '').lower()
-        if host in ('localhost','127.0.0.1') or host.endswith('.vercel.app'):
+        if host in ('localhost','127.0.0.1') or host.endswith('.vercel.app') or host.endswith('.onrender.com'):
             return True
         allowed={h.strip().lower() for h in os.getenv('ALLOWED_ORIGINS','').split(',') if h.strip()}
         return host in allowed or origin.rstrip('/') in allowed

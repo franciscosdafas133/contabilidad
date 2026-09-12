@@ -9,6 +9,8 @@ web/test-results/
 web/playwright-report/
 public/
 .vercel/
+.vercel-cli/
+.npm-cache/
 data/
 *.log
 .sites-runtime/
